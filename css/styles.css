@@ -1,22 +1,7 @@
-/* Основные переменные */
-:root {
-    --iris: #4d5ae5;
-    --navy-blue: #2e2f42;
-    --slate: #434455;
-    --cloud: #f4f4fd;
-    --white: #fff;
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-}
-
-/* Базовые стили */
 body {
-    font-family: var(--font-family);
-    color: var(--slate);
-    background-color: var(--cloud);
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    font-family: Roboto, sans-serif;
+    color: #2E2F42; /* Dominant text color from layout */
+    background-color: #FFFFFF; /* Default background */
 }
 
 a {
@@ -24,176 +9,155 @@ a {
     color: inherit;
 }
 
-ul, ol {
+ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-button {
-    cursor: pointer;
-    font-family: inherit;
-    transition: background-color 0.3s ease;
+/* Header */
+.header {
+    border-bottom: 1px solid #E7E9FC; /* From layout */
 }
 
-/* Шапка сайта (Header) */
-header {
-    background-color: var(--white);
-    border-bottom: 1px solid var(--cloud);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav {
-    display: flex;
-    gap: 40px;
-}
-
-header nav a {
-    font-family: var(--second-family);
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--navy-blue);
-}
-
-/* Адреса и контактная информация */
-address ul {
-    display: flex;
-    gap: 20px;
-}
-
-address ul li a {
-    font-family: var(--font-family);
-    font-size: 14px;
-    color: var(--slate);
-}
-
-/* Effective Solutions Section */
-.solutions-section {
-    background-color: var(--navy-blue);
-    color: var(--white);
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.solutions-section h1 {
-    font-family: var(--font-family);
-    font-size: 36px;
+.logo {
+    font-family: Raleway, sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17; /* 21px / 18px */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.solutions-section button {
-    background-color: var(--iris);
-    color: var(--white);
-    padding: 10px 20px;
-    border: none;
+.logo-web {
+    color: #4D5AE5; /* From layout */
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3; /* Hover/focus color per C3 */
+}
+
+.contact-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+    color: #434455; /* From layout */
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3; /* Per C4 */
+}
+
+/* Hero */
+.hero {
+    background-color: #2E2F42; /* From layout */
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07; /* 60px / 56px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF; /* From layout */
+    text-align: center;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; /* Assumed, not specified */
+    letter-spacing: 0.04em; /* Common for buttons */
+    color: #FFFFFF;
+    background-color: #4D5AE5; /* From layout */
     border-radius: 4px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer; /* Per C13 */
 }
 
-.solutions-section button:hover {
-    background-color: #3c4ad5; /* Hover эффект */
+/* Features */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11; /* 40px / 36px */
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
-/* Features Section */
-.features-section ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
-
-.features-section li {
-    background-color: var(--cloud);
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.features-section h3 {
-    font-family: var(--font-family);
+.feature-title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2; /* 24px / 20px */
+    letter-spacing: 0.02em;
 }
 
-.features-section p {
-    font-family: var(--font-family);
+.feature-text {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+    color: #434455; /* From layout */
 }
 
-/* Team Section */
-.team-section ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
-    gap: 20px;
-    padding: 20px;
+/* Team */
+.team {
+    background-color: #F4F4FD; /* From layout */
 }
 
-.team-section li {
-    text-align: center;
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; /* 24px / 20px */
+    letter-spacing: 0.02em;
 }
 
-.team-section img {
-    border-radius: 8px;
-}
-
-.team-section h3 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.team-section p {
-    font-family: var(--font-family);
+.team-role {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+    color: #434455; /* From layout */
 }
 
-/* Portfolio Section */
-.portfolio-section ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+/* Portfolio */
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; /* 24px / 20px */
+    letter-spacing: 0.02em;
 }
 
-.portfolio-section li {
-    text-align: center;
-}
-
-.portfolio-section img {
-    border-radius: 8px;
-}
-
-.portfolio-section h3 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-}
-
-.portfolio-section p {
-    font-family: var(--font-family);
+.portfolio-category {
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+    color: #434455; /* From layout */
 }
 
 /* Footer */
-footer {
-    background-color: var(--navy-blue);
-    color: var(--cloud);
-    text-align: center;
-    padding: 20px;
+.footer {
+    background-color: #2E2F42; /* From layout */
 }
 
-footer .logo {
-    font-family: var(--second-family);
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--iris);
+.footer .logo-web {
+    color: #4D5AE5; /* From layout */
 }
 
-footer p {
-    font-family: var(--font-family);
-    font-size: 14px;
+.footer .logo {
+    color: #F4F4FD; /* "Studio" part in footer */
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    letter-spacing: 0.02em;
+    color: #F4F4FD; /* From layout */
 }
