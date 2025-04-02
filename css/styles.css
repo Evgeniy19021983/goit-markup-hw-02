@@ -28,6 +28,11 @@ ul {
     color: #4D5AE5; /* Color for "Web" */
 }
 
+.logo:hover,
+.logo:focus {
+    color: #404BBF;
+}
+
 .logo-studio {
     color: #2E2F42; /* Color for "Studio" in header */
 }
@@ -41,7 +46,11 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #2196F3;
+    color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contact-link {
@@ -54,7 +63,7 @@ ul {
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3;
+    color: #404BBF;
 }
 
 /* Hero */
@@ -69,6 +78,7 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    text-transform: capitalize; /* Already present, confirmed */
 }
 
 .btn {
@@ -80,6 +90,11 @@ ul {
     background-color: #4D5AE5;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
 }
 
 /* Features */
@@ -127,6 +142,10 @@ ul {
 }
 
 /* Portfolio */
+.portfolio-item {
+    background-color: #FFFFFF; /* Background for portfolio items */
+}
+
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
@@ -149,6 +168,11 @@ ul {
 
 .footer .logo {
     color: #4D5AE5; /* Color for "Web" in footer */
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+    color: #404BBF;
 }
 
 .footer .logo-studio {
