@@ -1,4 +1,4 @@
-/*Основні змінні кольорів та шрифтів*/
+/* Основные переменные */
 :root {
     --iris: #4d5ae5;
     --navy-blue: #2e2f42;
@@ -7,187 +7,193 @@
     --white: #fff;
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
-  }
-  
-  /* Базові стилі */
-  body {
+}
+
+/* Базовые стили */
+body {
     font-family: var(--font-family);
     color: var(--slate);
     background-color: var(--cloud);
     margin: 0;
     padding: 0;
     line-height: 1.6;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  ul, ol {
+}
+
+ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  button {
+}
+
+button {
     cursor: pointer;
-  }
-  
-  /* Шапка сайту (Header) */
-  header {
+    font-family: inherit;
+    transition: background-color 0.3s ease;
+}
+
+/* Шапка сайта (Header) */
+header {
     background-color: var(--white);
     border-bottom: 1px solid var(--cloud);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  header nav {
+}
+
+header nav {
     display: flex;
     gap: 40px;
-  }
-  
-  header nav a {
+}
+
+header nav a {
     font-family: var(--second-family);
     font-size: 16px;
     font-weight: 500;
     color: var(--navy-blue);
-  }
-  
-  /* Адреса та контактна інформація */
-  address ul {
+}
+
+/* Адреса и контактная информация */
+address ul {
     display: flex;
     gap: 20px;
-  }
-  
-  address ul li a {
+}
+
+address ul li a {
     font-family: var(--font-family);
     font-size: 14px;
     color: var(--slate);
-  }
-  
-  /* Effective Solutions Section */
-  #section-1 {
+}
+
+/* Effective Solutions Section */
+.solutions-section {
     background-color: var(--navy-blue);
     color: var(--white);
     text-align: center;
     padding: 50px 20px;
-  }
-  
-  #section-1 h1 {
+}
+
+.solutions-section h1 {
     font-family: var(--font-family);
     font-size: 36px;
     font-weight: 700;
-  }
-  
-  #section-1 button {
+}
+
+.solutions-section button {
     background-color: var(--iris);
     color: var(--white);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Features Section */
-  #section-2 ul {
+}
+
+.solutions-section button:hover {
+    background-color: #3c4ad5; /* Hover эффект */
+}
+
+/* Features Section */
+.features-section ul {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-  }
-  
-  #section-2 li {
+}
+
+.features-section li {
     background-color: var(--cloud);
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  #section-2 h3 {
+}
+
+.features-section h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
-  }
-  
-  #section-2 p {
+}
+
+.features-section p {
     font-family: var(--font-family);
     font-size: 16px;
-  }
-  
-  /* Team Section */
-  #team ul {
+}
+
+/* Team Section */
+.team-section ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
     gap: 20px;
     padding: 20px;
-  }
-  
-  #team li {
+}
+
+.team-section li {
     text-align: center;
-  }
-  
-  #team img {
+}
+
+.team-section img {
     border-radius: 8px;
-  }
-  
-  #team h3 {
+}
+
+.team-section h3 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
-  }
-  
-  #team p {
+}
+
+.team-section p {
     font-family: var(--font-family);
     font-size: 16px;
-  }
-  
-  /* Portfolio Section */
-  #portfolio ul {
+}
+
+/* Portfolio Section */
+.portfolio-section ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-  }
-  
-  #portfolio li {
+}
+
+.portfolio-section li {
     text-align: center;
-  }
-  
-  #portfolio img {
+}
+
+.portfolio-section img {
     border-radius: 8px;
-  }
-  
-  #portfolio h3 {
+}
+
+.portfolio-section h3 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
-  }
-  
-  #portfolio p {
+}
+
+.portfolio-section p {
     font-family: var(--font-family);
     font-size: 16px;
-  }
-  
-  /*  Footer */
-  footer {
+}
+
+/* Footer */
+footer {
     background-color: var(--navy-blue);
     color: var(--cloud);
     text-align: center;
     padding: 20px;
-  }
-  
-  footer .logo {
+}
+
+footer .logo {
     font-family: var(--second-family);
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--iris);
-  }
-  
-  footer p {
+}
+
+footer p {
     font-family: var(--font-family);
     font-size: 14px;
-  }
+}
