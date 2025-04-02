@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42; /* Dominant text color from layout */
-    background-color: #FFFFFF; /* Default background */
+    color: #2E2F42; /* Dominant text color */
+    background-color: #FFFFFF;
 }
 
 a {
@@ -15,7 +15,7 @@ ul {
 
 /* Header */
 .header {
-    border-bottom: 1px solid #E7E9FC; /* From layout */
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .logo {
@@ -25,10 +25,11 @@ ul {
     line-height: 1.17; /* 21px / 18px */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5; /* Color for "Web" */
 }
 
-.logo-web {
-    color: #4D5AE5; /* From layout */
+.logo-studio {
+    color: #2E2F42; /* Color for "Studio" in header */
 }
 
 .nav-link {
@@ -40,7 +41,7 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #2196F3; /* Hover/focus color per C3 */
+    color: #2196F3;
 }
 
 .contact-link {
@@ -48,17 +49,17 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
-    color: #434455; /* From layout */
+    color: #434455;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3; /* Per C4 */
+    color: #2196F3;
 }
 
 /* Hero */
 .hero {
-    background-color: #2E2F42; /* From layout */
+    background-color: #2E2F42;
 }
 
 .hero-title {
@@ -66,19 +67,19 @@ ul {
     font-size: 56px;
     line-height: 1.07; /* 60px / 56px */
     letter-spacing: 0.02em;
-    color: #FFFFFF; /* From layout */
+    color: #FFFFFF;
     text-align: center;
 }
 
 .btn {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5; /* Assumed, not specified */
-    letter-spacing: 0.04em; /* Common for buttons */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5; /* From layout */
+    background-color: #4D5AE5;
     border-radius: 4px;
-    cursor: pointer; /* Per C13 */
+    cursor: pointer;
 }
 
 /* Features */
@@ -102,12 +103,12 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
-    color: #434455; /* From layout */
+    color: #434455;
 }
 
 /* Team */
 .team {
-    background-color: #F4F4FD; /* From layout */
+    background-color: #F4F4FD;
 }
 
 .team-name {
@@ -122,7 +123,7 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
-    color: #434455; /* From layout */
+    color: #434455;
 }
 
 /* Portfolio */
@@ -138,20 +139,20 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
-    color: #434455; /* From layout */
+    color: #434455;
 }
 
 /* Footer */
 .footer {
-    background-color: #2E2F42; /* From layout */
-}
-
-.footer .logo-web {
-    color: #4D5AE5; /* From layout */
+    background-color: #2E2F42;
 }
 
 .footer .logo {
-    color: #F4F4FD; /* "Studio" part in footer */
+    color: #4D5AE5; /* Color for "Web" in footer */
+}
+
+.footer .logo-studio {
+    color: #F4F4FD; /* Color for "Studio" in footer */
 }
 
 .footer-text {
@@ -159,5 +160,5 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
-    color: #F4F4FD; /* From layout */
+    color: #F4F4FD;
 }
