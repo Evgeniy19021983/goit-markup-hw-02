@@ -44,6 +44,7 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
+    color: #2E2F42; /* New color */
 }
 
 .nav-link:hover,
@@ -101,89 +102,4 @@ ul {
 /* Features */
 .section-title {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11; /* 40px / 36px */
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-}
-
-.feature-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; /* 24px / 20px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.feature-text {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Team */
-.team {
-    background-color: #F4F4FD;
-}
-
-.team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; /* 24px / 20px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.team-role {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Portfolio */
-.portfolio-item {
-    background-color: #FFFFFF;
-}
-
-.portfolio-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; /* 24px / 20px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.portfolio-category {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Footer */
-.footer {
-    background-color: #2E2F42;
-}
-
-.footer .logo {
-    color: #4D5AE5; /* Color for "Web" in footer */
-}
-
-.footer .logo:hover,
-.footer .logo:focus {
-    color: #404BBF;
-}
-
-.footer .logo-studio {
-    color: #F4F4FD; /* Color for "Studio" in footer */
-}
-
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
 }
