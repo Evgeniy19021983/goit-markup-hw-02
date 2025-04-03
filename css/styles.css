@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42; /* Dominant text color */
+    color: #434455; /* Dominant text color */
     background-color: #FFFFFF;
 }
 
@@ -50,11 +50,10 @@ ul {
 }
 
 .contacts {
-    font-style: normal;
+    font-style: normal; /* Оставляем, так как это корректно для address */
 }
 
 .contact-link {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
@@ -78,17 +77,16 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
-    text-transform: capitalize; /* Already present, confirmed */
+    text-transform: capitalize;
 }
 
 .btn {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -104,6 +102,7 @@ ul {
     line-height: 1.11; /* 40px / 36px */
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
 }
 
 .feature-title {
@@ -111,10 +110,10 @@ ul {
     font-size: 20px;
     line-height: 1.2; /* 24px / 20px */
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .feature-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
@@ -131,10 +130,10 @@ ul {
     font-size: 20px;
     line-height: 1.2; /* 24px / 20px */
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .team-role {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
@@ -143,7 +142,7 @@ ul {
 
 /* Portfolio */
 .portfolio-item {
-    background-color: #FFFFFF; /* Background for portfolio items */
+    background-color: #FFFFFF;
 }
 
 .portfolio-title {
@@ -151,10 +150,10 @@ ul {
     font-size: 20px;
     line-height: 1.2; /* 24px / 20px */
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .portfolio-category {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
@@ -180,9 +179,9 @@ ul {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
