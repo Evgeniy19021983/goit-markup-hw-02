@@ -20,7 +20,7 @@ ul {
 
 .logo {
     font-family: Raleway, sans-serif;
-    font-weight: 700;
+    font-weight: 700; /* Ensure font-weight matches available font weights */
     font-size: 18px;
     line-height: 1.17; /* 21px / 18px */
     letter-spacing: 0.03em;
@@ -50,7 +50,7 @@ ul {
 }
 
 .contacts {
-    font-style: normal; /* Оставляем, так как это корректно для address */
+    font-style: normal; /* Correct declaration for address block */
 }
 
 .contact-link {
@@ -97,7 +97,7 @@ ul {
 
 /* Features */
 .section-title {
-    font-weight: 700;
+    font-weight: 700; /* Correct font weight */
     font-size: 36px;
     line-height: 1.11; /* 40px / 36px */
     letter-spacing: 0.02em;
@@ -184,4 +184,3 @@ ul {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-
