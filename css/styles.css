@@ -15,60 +15,7 @@ ul {
     padding: 0;
 }
 
-/* Header */
-.header {
-    border-bottom: 1px solid #E7E9FC;
-}
-
-.logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700; /* Ensure font-weight matches available font weights */
-    font-size: 18px;
-    line-height: 1.17; /* 21px / 18px */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5; /* Color for "Web" */
-}
-
-.logo:hover,
-.logo:focus {
-    color: #404BBF;
-}
-
-.logo-studio {
-    color: #2E2F42; /* Color for "Studio" in header */
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404BBF;
-}
-
-.contacts {
-    font-style: normal; /* Correct declaration for address block */
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404BBF;
-}
-
-/* Hero */
+/* Hero section */
 .hero {
     background-color: #2E2F42;
 }
@@ -119,50 +66,6 @@ ul {
 }
 
 .feature-text {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Team */
-.team {
-    background-color: #F4F4FD;
-}
-
-.team-item {
-    background-color: #FFFFFF;
-}
-
-.team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; /* 24px / 20px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.team-role {
-    font-size: 16px;
-    line-height: 1.5; /* 24px / 16px */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Portfolio */
-.portfolio-item {
-    background-color: #FFFFFF;
-}
-
-.portfolio-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; /* 24px / 20px */
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.portfolio-category {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
