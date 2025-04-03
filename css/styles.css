@@ -44,6 +44,7 @@ ul {
     font-size: 16px;
     line-height: 1.5; /* 24px / 16px */
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .nav-link:hover,
@@ -106,6 +107,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .feature-title {
@@ -126,6 +128,10 @@ ul {
 /* Team */
 .team {
     background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-name {
